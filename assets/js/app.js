@@ -36,7 +36,7 @@
 		  	var branch = childData.branch;
 		  	var name = childData.name;
 		  	var number = childData.number;
-		  	$("#tableBodyBank").append("<tr><td>" + bank +"</td><td>"+ branch +"</td><td>" + name + "</td><td>"+ number +"</td></tr>");
+		  	$("#tableBodyBank").append("<tr><td>" + bank +"</td><td>"+ branch +"</td><td>" + number + "</td><td>"+ name +"</td></tr>");
 	  	});
 	});
 
