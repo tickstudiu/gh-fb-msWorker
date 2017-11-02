@@ -40,3 +40,10 @@ form.bootstrap-form-with-validation{
   margin-bottom:12px;
 }
 
+.has-name{
+  color: blue;
+}
+
+.has-name input[type=text]{
+  border-bottom: 2px solid blue;
+}

@@ -5,6 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MaplestoryWorker</title>
+    <link rel="shortcut icon" href="https://cdn.pixabay.com/photo/2015/07/06/15/12/w-833386_960_720.png" />
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cookie">
     <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
@@ -39,8 +40,6 @@
             <div class="panel-body">
                 <ul>
                     <li>โอนเงินให้เรียบร้อยก่อนแจ้งโอน </li>
-                    <li>ภายใน 24 ชั่วโมง ทีมงานตรวจสอบวันละ 4 รอบ</li>
-                    <li>หากโองเงินผิดโปรดแจ้งภายใน 24 ชั่วโมง ทีมงานจะโอนเงินเก็บหักลบค่าทำเนียม(- 20฿) จากยอดโอน</li>
                     <li>มีข้อสงสัยสามารถแจ้งได้ที่่ tickstudiu@gmail.com หรือทาง <a href="https://www.facebook.com/messages/t/sliple.ness">facebook.com/messages/t/sliple.ness </a></li>
                 </ul>
             </div>
@@ -69,6 +68,10 @@
     <div class="container">
         <h1>Money Transfer </h1>
         <form class="bootstrap-form-with-validation">
+            <div class="form-group has-name">
+                <label class="control-label" for="text-input">ชื่อ face</label>
+                <input class="form-control" type="text"  placeholder="Wanchalerm suksawat (ของ admin เอง)" id="name">
+            </div>
             <div class="form-group has-error">
                 <label class="control-label" for="text-input">วันที่ชำระเงิน </label>
                 <input class="form-control" type="text"  placeholder="yyyy-mm-dd" id="date">
@@ -82,8 +85,8 @@
                 <input class="form-control" type="nummber"  placeholder="1650" id="piece">
             </div>
             <div class="form-group">
-                <label class="control-label">Static Control</label>
-                <p class="form-static-control">A basic template showing the proper way to create bootstrap forms using form group components, labels and input fields.</p>
+                <label class="control-label">โปรดอ่าน</label>
+                <p class="form-static-control">ทางเราจะรีบทำการตรวจสอบ</p>
             </div>
             <div class="form-group">
                 <button class="btn btn-primary" onclick="saveData()">Submit </button>

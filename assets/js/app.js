@@ -42,12 +42,14 @@
 
 	function saveData(){
 		// get value
+		var name = document.getElementById('name');
 		var date = document.getElementById('date');
 		var time = document.getElementById('time');
 		var piece = document.getElementById('piece');
 
 		var firebaseRefPayment = firebase.database().ref("paymentMsg");
 		firebaseRefPayment.push({
+			name:name.value,
 			data:date.value,
 			time:time.value,
 			piece:piece.value
